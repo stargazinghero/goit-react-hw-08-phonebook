@@ -134,7 +134,7 @@ const Layout = () => {
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               {!isLoggedIn ? (
-                <AuthMenu />
+                <AuthMenu setAnchorElNav={setAnchorElNav} />
               ) : (
                 <Link
                   to={'/contacts'}
