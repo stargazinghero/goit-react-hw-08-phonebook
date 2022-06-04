@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 export default function AuthMenu() {
   const [anchorElNav, setAnchorElNav] = useState(null);
+
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
