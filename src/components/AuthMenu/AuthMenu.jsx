@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
-import { useState } from 'react';
 
 export default function AuthMenu({ setAnchorElNav }) {
   const handleCloseNavMenu = () => {
