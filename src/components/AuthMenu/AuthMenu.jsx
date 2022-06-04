@@ -3,7 +3,7 @@ import { Button } from '@mui/material';
 import { useState } from 'react';
 
 export default function AuthMenu() {
-  const [setAnchorElNav] = useState(null);
+  const [anchorElNav, setAnchorElNav] = useState(null);
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
