@@ -21,7 +21,7 @@ export const App = () => {
   const isGetCurrentUser = useSelector(getIsGetCurrentUser);
 
   useEffect(() => {
-    dispatch(getCurrentUser);
+    dispatch(getCurrentUser());
   }, [dispatch]);
 
   return isGetCurrentUser ? (
